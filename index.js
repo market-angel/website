@@ -1,11 +1,13 @@
-console.log("I love things!!!!");
-console.log("It's very GeolocationCoordinates!!!")
-
 /*
     HOLY
     MOLY
 */
 
-let age;
+let username;
 
-console.log(age)
+document.getElementById("myButton").onClick = function(){
+
+    username = document.getElementById("myText").value;
+    console.log(username);
+    document.getElementById("myLabel").innerHTML = username;
+}

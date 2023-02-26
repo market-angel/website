@@ -20,6 +20,12 @@ h1{
 content{
     max-width: 800px;
 }
+label{
+    font-family: monospace;color: #FFFFFF;font-size: 18px;
+}
+button{
+    font-family: monospace;color: #000000;font-size: 18px;
+}
 
 .snowflake {
     color: #fff;
